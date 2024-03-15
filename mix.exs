@@ -10,7 +10,7 @@ defmodule TradingEconomics.MixProject do
       description: "TradingEconomics API Client for Elixir (https://docs.tradingeconomics.com/)",
       package: package(),
       start_permanent: Mix.env() == :prod,
-      deps: deps(),
+      deps: deps()
     ]
   end
 
@@ -35,7 +35,8 @@ defmodule TradingEconomics.MixProject do
       {:req, "~> 0.4.0"},
       {:mapail, "~> 1.0.0"},
       {:nimble_csv, "~> 1.2.0"},
-      {:exvcr, "~> 0.11", only: [:dev, :test]}
+      {:exvcr, "~> 0.11", only: [:dev, :test]},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end
