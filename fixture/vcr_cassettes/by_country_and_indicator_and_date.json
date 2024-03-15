@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://api.tradingeconomics.com/historical/country/mexico,sweden/indicator/gdp,population/2020-12-31?c=guest%3Aguest",
+      "headers": {
+        "accept-encoding": "gzip",
+        "user-agent": "req/0.4.13"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "[{\"Country\":\"Mexico\",\"Category\":\"GDP\",\"DateTime\":\"2022-12-31T00:00:00\",\"Value\":1465.8500,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"WGDPMEXI\",\"LastUpdate\":\"2024-01-02T15:00:00\"},{\"Country\":\"Mexico\",\"Category\":\"Population\",\"DateTime\":\"2022-12-31T00:00:00\",\"Value\":129.0000,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"MEX SP.POP.TOTL\",\"LastUpdate\":\"2023-05-30T18:48:00\"},{\"Country\":\"Sweden\",\"Category\":\"Population\",\"DateTime\":\"2023-12-31T00:00:00\",\"Value\":10.5200,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"SWE SP.POP.TOTL\",\"LastUpdate\":\"2024-01-22T07:38:00\"}]",
+      "headers": {
+        "date": "Thu, 14 Mar 2024 14:55:13 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "563",
+        "connection": "keep-alive",
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "expires": "-1",
+        "apiserver": "TEIIS1A"
+      },
+      "status_code": 200
+    }
+  }
+]

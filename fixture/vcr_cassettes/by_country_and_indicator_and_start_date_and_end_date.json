@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://api.tradingeconomics.com/historical/country/mexico/indicator/gdp/2018-01-01/2021-01-01",
+      "headers": {
+        "accept-encoding": "gzip",
+        "user-agent": "req/0.4.13"
+      },
+      "method": "get",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "[{\"Country\":\"Mexico\",\"Category\":\"GDP\",\"DateTime\":\"2018-12-31T00:00:00\",\"Value\":1256.3000,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"WGDPMEXI\",\"LastUpdate\":\"2024-01-02T15:00:00\"},{\"Country\":\"Mexico\",\"Category\":\"GDP\",\"DateTime\":\"2019-12-31T00:00:00\",\"Value\":1305.2100,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"WGDPMEXI\",\"LastUpdate\":\"2024-01-02T15:00:00\"},{\"Country\":\"Mexico\",\"Category\":\"GDP\",\"DateTime\":\"2020-12-31T00:00:00\",\"Value\":1120.7400,\"Frequency\":\"Yearly\",\"HistoricalDataSymbol\":\"WGDPMEXI\",\"LastUpdate\":\"2024-01-02T15:00:00\"},{\"Country\":\"Free accounts have access to the following countries: Mexico, New Zealand, Sweden, Thailand. For more, contact us at support@tradingeconomics.com.\",\"Category\":\"\",\"DateTime\":\"2024-03-14T16:02:33.8159888+00:00\",\"Value\":0.0,\"Frequency\":null,\"HistoricalDataSymbol\":null,\"LastUpdate\":null}]",
+      "headers": {
+        "date": "Thu, 14 Mar 2024 16:02:35 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "835",
+        "connection": "keep-alive",
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "expires": "-1",
+        "apiserver": "TEIIS1A"
+      },
+      "status_code": 200
+    }
+  }
+]
